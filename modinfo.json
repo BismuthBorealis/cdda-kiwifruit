@@ -1,0 +1,22 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "kiwifruit",
+    "name": "Kiwifruit",
+    "authors": [ "BismuthBorealis" ],
+    "description": "Correcting a pet peeve.",
+    "category": "item",
+    "dependencies": [ "dda" ]
+  },
+  {
+    "type": "COMESTIBLE",
+    "copy-from": "kiwi",
+    "name": { "str": "kiwifruit", "str-pl": "kiwifruit" }
+  },
+  {
+    "type": "COMESTIBLE",
+    "copy-from": "irradiated_kiwi",
+    "name": { "str": "irradiated kiwifruit", "str-pl": "irradiated kiwifruit" },
+    "description:": "An irradiated kiwifruit will remain edible nearly forever. Sterilized using radiation, so it's safe to eat."
+  }
+]
